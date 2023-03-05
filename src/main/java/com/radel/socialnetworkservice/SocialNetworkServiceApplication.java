@@ -9,5 +9,4 @@ public class SocialNetworkServiceApplication {
     public static void main(String[] args) {
         SpringApplication.run(SocialNetworkServiceApplication.class, args);
     }
-
 }

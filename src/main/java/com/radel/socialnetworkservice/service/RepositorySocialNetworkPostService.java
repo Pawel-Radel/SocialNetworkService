@@ -2,7 +2,6 @@ package com.radel.socialnetworkservice.service;
 
 import static com.radel.socialnetworkservice.api.exception.SocialNetworkPostException.postNotFound;
 
-import java.util.Date;
 import java.util.List;
 
 import org.springframework.data.domain.Page;

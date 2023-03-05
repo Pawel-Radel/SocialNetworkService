@@ -2,7 +2,7 @@
 
 ## Description
 
-The purpose of this service is to expose crud api for social network posts and to display sorted posts by fields (view count, size 10 by default);
+The purpose of this service is to expose crud api for social network posts and endpoint to display sorted posts by fields (view count, size 10 by default);
 
 ## System requirements
 

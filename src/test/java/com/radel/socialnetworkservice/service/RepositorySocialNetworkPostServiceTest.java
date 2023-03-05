@@ -1,9 +1,9 @@
 package com.radel.socialnetworkservice.service;
 
 import static com.radel.socialnetworkservice.testData.SocialNetworkPostTestData.buildSocialNetworkPostFromRequest;
+import static com.radel.socialnetworkservice.testData.SocialNetworkPostTestData.getExampleSocialNetworkPost;
 import static com.radel.socialnetworkservice.testData.SocialNetworkPostTestData.getExampleSocialNetworkPostDto;
 import static com.radel.socialnetworkservice.testData.SocialNetworkPostTestData.getExampleSocialNetworkPostRequest;
-import static com.radel.socialnetworkservice.testData.SocialNetworkPostTestData.getExampleSocialNetworkPost;
 import static java.util.Calendar.JANUARY;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
@@ -156,7 +156,7 @@ class RepositorySocialNetworkPostServiceTest {
     }
 
     @Test
-    public void shouldThrowsSocialNetworkPostExceptionWhenDearchingNotExistingPost() {
+    public void shouldThrowsSocialNetworkPostExceptionWhenSearchingNotExistingPost() {
         // given
         Long postId = 1L;
 
