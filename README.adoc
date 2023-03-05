@@ -1,0 +1,15 @@
+# Social Network Service
+
+## Description
+
+The purpose of this service is to expose crud api for social network posts and to display sorted posts by fields (view count, size 10 by default);
+
+## System requirements
+
+This service requires at least 17 java version.
+
+## How to run the project
+
+- Clone the project to your local computer
+- Run the "mvn clean package" command in the project directory
+- Run the "java -jar jar_name.jar" command in the project directory
